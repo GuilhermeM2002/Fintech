@@ -13,7 +13,9 @@ Projeto full stack desenvolvido durante o curso de Análise e desenvolvimento de
 <br>
 
 <p align="center">
-  <img alt="calendario da copa" src=".github/preview.jpg" width="100%">
+  <img alt="Tela de login" src="./login.png" width="100%">
+  <img alt="Dashboard" src="./dash.png" width="100%">
+  <img alt="Tela de investimento" src="./investimento.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
