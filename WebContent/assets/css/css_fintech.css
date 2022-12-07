@@ -1,0 +1,344 @@
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #121214;
+    
+}
+.container-fluid{
+    padding: 0 12px;
+}
+.container{
+    padding: 0 24px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    margin-top: 16px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+p{
+    margin: 0;
+}
+.logo{
+    width: 85px;
+    height: 85px;
+}
+.bi-person-circle{
+    font-size: 34px;
+    color: #E1E1E6;
+}
+a h1{
+    display: none;
+}
+button{
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0;
+}
+.h2{
+    color: #E1E1E6;
+    font-size: 14px;
+    margin-bottom: 32px;
+    font-weight: bold;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.94);
+    width: 50%;
+    height: 0;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+.overlay a{
+    color: #E1E1E6;
+    padding: 8px;
+    margin-bottom: 12px;
+    display: block;
+    font-size: 16px;
+    transition: 0.5s;
+}
+.content-overlay{
+    position: relative;
+    height: 100%;
+    text-align: center;
+}
+.text{
+    color: #E1E1E6;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+.mes-corrente{
+    color: #FCE06A;
+    text-decoration: none;
+}
+footer{
+    border-top: solid 1px;
+    color: #E1E1E6;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    margin-top: 32px;
+}
+ul{
+    margin: 16px;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    margin: 16px;
+}
+.copy{
+    text-align: center;
+}
+.bi-facebook, .bi-instagram, .bi-twitter, .bi-youtube{
+    color: #E1E1E6;
+    margin: 2%;
+    font-size: 32px;
+}
+.contato:hover{
+    color: #FCE06A;
+}
+.conteudo-principal{
+    background-color: #690589;
+    color: #E1E1E6;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 48px;
+}
+.fundos{
+    color: #FCE06A;
+}
+.editar{
+    font-size: 20px;
+    font-weight: 600;
+    color: #690589;
+}
+.titulo{
+    color: #E1E1E6;
+    font-size: 24px;
+    text-decoration: none; 
+}
+.titulo:hover{
+    color: #690589;
+}
+.bi-arrow-right{
+    color: #E1E1E6;
+    font-size: 32px;
+}
+a{
+    text-decoration: none;
+    color: #E1E1E6;
+}
+.lucros{
+    width: 50%;
+}
+main h1{
+    font-size: 24px;
+    font-weight: 600;
+    color: #E1E1E6;
+}
+.container-button{
+	display: flex;
+	justify-content: space-between;
+}
+.button-inv{
+    background-color: #690589;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px;
+    color: #E1E1E6;
+    border-radius: 4px;
+    margin: 4px;
+    width: 80px;
+    height: 40px;
+}
+.button-excluir{
+	border-radius: 4px;
+    margin: 4px;
+    width: 80px;
+    height: 40px;
+    background-color: #DC3545;
+    color: #E1E1E6;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.card-consulta{
+	display: flex;
+	flex-direction: column;
+    background-color: #E1E1E6;
+    border-radius: 4px;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.card-consulta-item{
+	display: flex;
+	
+}
+.card-consulta h1{
+    font-size: 18px;
+    color: black;
+    margin-bottom: 16px;
+    margin-right: 16px;
+}
+.card-consulta p{
+    margin-bottom: 16px;
+    font-weight: bold;
+    
+}
+.select-update{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+.select-update a{
+    color: #FCE06A;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.modal-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-content{
+    background-color: #121214;
+    color: #E1E1E6;
+}
+.add{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input, select{
+    background-color: #202024;
+    border: none;
+    border-radius: 4px;
+    color: #E1E1E6;
+    margin-bottom: 16px;
+    padding: 8px;
+    height: 40px;
+    width: 250px;
+}
+label{
+    color: #E1E1E6;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+.dados{
+    font-size: 20px;
+    font-weight: 600;
+}
+@media (min-width: 500px){
+    p, .mes-corrente{
+        font-size: 20px;
+    }
+    .texto{
+        font-size: 16px;
+    }
+}
+@media (min-width: 700px) {
+    header{
+        flex-wrap: wrap;
+    }
+    .offcanvas{
+        font-size: 24px;
+    }
+    .nav-link{
+        color: #E1E1E6;
+        font-size: 16px;
+        padding: 4px 8px;
+    }
+    .h2{
+        font-size: 20px;
+    }
+    .text{
+        font-size: 24px;
+    }
+    .local_banner{
+        align-items: center;
+        padding: 8px;
+        background-image: url(../img/map.jpg);
+        object-fit: cover;
+        background-repeat: no-repeat;
+        height: 300px;
+        margin-bottom: 32px;
+    }
+    .frase-banner{
+		background-color: rgba(0, 0, 0, 0);    
+    }
+    .local_banner h1{
+        font-size: 36px;
+        font-weight: 600;
+    }
+    .conteudo-principal{
+    	height: 100px;
+    	margin-bottom: 64px;
+    }
+    .card-consulta{
+    	flex-wrap: wrap;
+    	flex-direction: row;
+    	justify-content: space-between;
+    }
+    .card-consulta-item{
+		flex-direction: column;
+	}
+    input{
+        width: 400px;
+    }
+}
+@media (min-width: 900px) {
+    header{
+        background-color: #121214;
+        justify-content: space-between;
+    }
+    header h1{
+        display: initial;
+    }
+    .nav-link{
+        color: #E1E1E6;
+        font-size: 20px;
+    }
+    .nav-link:hover{
+        color: #7953d2;
+    }
+    .h2{
+        font-size: 18px;
+    }
+    .local_banner{
+        background-image: url(../img/map-large.jpg);
+        background-repeat: repeat;
+        padding: 24px;
+        justify-content: center;
+    }
+    .local_banner h1{
+        color: black;
+        font-size: 44px;
+    }
+    h1{
+        font-size: 24px;
+    }
+    
+}
