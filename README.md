@@ -14,7 +14,6 @@ Projeto full stack desenvolvido durante o curso de Análise e desenvolvimento de
 
 <p align="center">
   <img alt="Tela de login" src="./login.png" width="100%">
-  <img alt="Dashboard" src="./dash.png" width="100%">
   <img alt="Tela de investimento" src="./investimento.png" width="100%">
 </p>
 
