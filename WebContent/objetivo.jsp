@@ -24,7 +24,7 @@
           	<c:forEach items="${objetivos}" var="o">
 				<div class="card-consulta">
 					<div class="card-consulta-item">
-						<h1>Descrição</h1>
+						<h1>Descriï¿½ï¿½o</h1>
 						<p>${o.descricaoObjetivo}</p>
 					</div>	            
 					
@@ -57,9 +57,7 @@
 		
 		      			<input type="hidden" name="codigo" id="codigoExcluir"> 
 						<button type="submit" class="button-excluir" onclick="codigoExcluir.value = ${o.codigo}"> 
-		
-		  					Excluir 
-		
+			  			Excluir 
 						</button>
 					</form>	
 					</div>

@@ -22,9 +22,9 @@
           <div class="row mb-4 fundos">
             <p>
           
-              Diversificar suas fontes de renda é um ótimo caminho para aumentar
-              seus lucros, investir em diferentes áreas é primordial para que
-              isso aconteça.
+              Diversificar suas fontes de renda ï¿½ um ï¿½timo caminho para aumentar
+              seus lucros, investir em diferentes ï¿½reas ï¿½ primordial para que
+              isso aconteï¿½a.
             </p>
           </div>
           <section>
@@ -79,7 +79,7 @@
 		      			<input type="hidden" name="acao" value="excluir"> 
 		
 		      			<input type="hidden" name="codigo" id="codigoExcluir"> 
-						<button type="submit" class="button-excluir" onclick="codigoExcluir.value = ${i.codigo}"> 
+						<button type="submit" class="button-excluir" onclick="codigoExcluir.value = $;{i.codigo}"> 
 		
 		  					Excluir 
 		
@@ -110,22 +110,22 @@
 
           <article class="row">
             <div class="p-0">
-              <h1>Ainda não tem nenhum investimento?</h1>
+              <h1>Ainda nï¿½o tem nenhum investimento?</h1>
               <p class="text">
-                Não perca tempo, consulte nossa página "Aprenda a investir" para
-                ficar por dentro de tudo e começar sua primeira aplicação.
+                Nï¿½o perca tempo, consulte nossa pï¿½gina "Aprenda a investir" para
+                ficar por dentro de tudo e comeï¿½ar sua primeira aplicaï¿½ï¿½o.
               </p>
               <p class="text">
-                Fique de olho também em nossas redes sociais, lá você pode obter
-                várias dicas para te ajudar em suas aplicações.
+                Fique de olho tambï¿½m em nossas redes sociais, lï¿½ vocï¿½ pode obter
+                vï¿½rias dicas para te ajudar em suas aplicaï¿½ï¿½es.
               </p>
               <h1>Simule agora</h1>
               <p class="text">
                 Saiba quanto seu dinheiro pode render ao simular investimentos
-                de CDB e LC, LCA, LCI e tesouro direto em relação a poupança.
+                de CDB e LC, LCA, LCI e tesouro direto em relaï¿½ï¿½o a poupanï¿½a.
               </p>
               <p class="text">
-                Compare e comece a investir de forma fácil e intuitiva:
+                Compare e comece a investir de forma fï¿½cil e intuitiva:
               </p>
               <a href="#"><i class="bi bi-arrow-right"></i></a>
             </div>
