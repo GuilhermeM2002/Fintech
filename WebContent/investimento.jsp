@@ -4,25 +4,21 @@
 
 			<!DOCTYPE html>
 			<html lang="pt-br">
-
 			<head>
 				<%@ include file="header.jsp" %>
 					<link href="./assets/css/css_fintech.css" rel="stylesheet" />
 					<title>Investimentos</title>
 			</head>
-
 			<body>
 				<div class="container-fluid">
 					<header>
 						<%@ include file="menu.jsp" %>
 					</header>
-
 					<div class="container">
 						<main>
 							<h1>Seus investimentos</h1>
 							<div class="row mb-4 fundos">
 								<p>
-
 									Diversificar suas fontes de renda � um �timo caminho para aumentar
 									seus lucros, investir em diferentes �reas � primordial para que
 									isso aconte�a.
@@ -81,15 +77,11 @@
 												<button type="submit" class="button-excluir" onclick="codigoExcluir.value = ${i.codigo}">
 													Excluir
 												</button>
-
 											</form>
 										</div>
 									</div>
 								</c:forEach>
-
 							</section>
-
-
 							<section class="add">
 								<c:if test="${not empty msg }">
 									<div class="alert alert-success">${msg}</div>
