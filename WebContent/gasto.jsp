@@ -1,26 +1,21 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1" %>
 	<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 		<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
-
 			<!DOCTYPE html>
 			<html lang="pt-br">
-
 			<head>
 				<%@ include file="header.jsp" %>
 					<link href="./assets/css/css_fintech.css" rel="stylesheet" />
 					<title>Gastos</title>
 			</head>
-
 			<body>
 				<div class="container-fluid">
 					<header>
 						<%@ include file="menu.jsp" %>
 					</header>
-
 					<div class="container">
 						<main>
 							<h1>Seus gastos</h1>
-
 							<section>
 								<c:forEach items="${gastos}" var="g">
 									<div class="card-consulta">
@@ -58,21 +53,13 @@
 
 												<input type="hidden" name="codigo" id="codigoExcluir">
 												<button type="submit" class="button-excluir" onclick="codigoExcluir.value = ${g.codigo}">
-
 													Excluir
-
 												</button>
 											</form>
 										</div>
 									</div>
-
-
-
 								</c:forEach>
-
 							</section>
-
-
 							<section class="add">
 								<c:if test="${not empty msg }">
 									<div class="alert alert-success">${msg}</div>
@@ -85,9 +72,7 @@
 								<a href="gasto?acao=abrir-form-cadastro">
 									<button type="button" class="button-inv">Adicionar</button>
 								</a>
-
 							</section>
-
 						</main>
 					</div>
 					<footer>
@@ -97,5 +82,4 @@
 				<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 				<script src="./assets/js/action.js"></script>
 			</body>
-
 			</html>
